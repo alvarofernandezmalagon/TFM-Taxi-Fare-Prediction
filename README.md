@@ -14,7 +14,7 @@ analysis over historical data before the regulation, may provide useful insights
 ## About the methodology ##
 The CRISP-DM (*cross-industry process for data mining*) methodology provides a structured approach to planning a data mining task and was applied to this data science project.
 
-![CRISP-DM](information/processp.jpg)
+![CRISP-DM](information/process.jpg)
 
 ### Data acquisition
 
