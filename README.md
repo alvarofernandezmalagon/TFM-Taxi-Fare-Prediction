@@ -46,7 +46,7 @@ The CRISP-DM (*cross-industry process for data mining*) methodology provides a s
 All this information can be downloaded by running the notebook: [`download_files_drive.ipynb`](Scripts/download_files_drive.ipynb) 
 
 
-## Exploratory data analysis (EDA)
+## Data cleaning and Preparation (EDA)
 
 ### Description
 The main tasks during this phase were transforming data, dealing with missing values,filter outliers and strange values and visualizing raw data by plotting frequency.
@@ -80,7 +80,9 @@ In this phase, several notebooks have been used, being these the following ones:
 
 	Once this has been done, we have taken a visualization of the data, an analysis of the variables that most influence the price of the taxi to finally create the datasets with which to carry out the modeling and visualization.
 
+## Modelling
 
+# WORK IN PROGRESS
 
 		
 
