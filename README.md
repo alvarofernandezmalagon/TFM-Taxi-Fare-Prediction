@@ -33,4 +33,4 @@ The CRISP-DM (*cross-industry process for data mining*) methodology provides a s
 
 4. We have also created an Excel file with translation of the referent fields Pickup Community Area and Dropoff Community Area [here](Information/Community_Areas_and_Neigborhoods_City_of_Chicago.xlsx).
 
-All this information can be downloaded by running the notebook: [`download_files_drive.ipynb`](download_files_drive.ipynb) 
+All this information can be downloaded by running the notebook: [`download_files_drive.ipynb`](Scripts/download_files_drive.ipynb) 
