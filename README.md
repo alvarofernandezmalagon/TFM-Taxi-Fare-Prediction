@@ -58,11 +58,11 @@ In this phase, several notebooks have been used, being these the following ones:
 
 1. [`exploratory_taxi_data.ipynb`](Scripts/exploratory_taxi_data.ipynb): In this notebook with the help of **PySpark** what has been done is to perform a first analysis of the dataset of taxi journeys following the next steps: 
 		
-		1. We have carried out a transformation of the names of the fields to comply with good practices.
-		2. We have converted the dates to date format.
-		3. We have analyzed the most repeated values in each of the axes.
-		4. We have eliminated the useless columns
- 		5. Finally we have analyzed the values null and strange making a count of how many trips would remain after this first analysis.
+	1. We have carried out a transformation of the names of the fields to comply with good practices.
+	2. We have converted the dates to date format.
+	3. We have analyzed the most repeated values in each of the axes.
+	4. We have eliminated the useless columns
+ 	5. Finally we have analyzed the values null and strange making a count of how many trips would remain after this first analysis.
 	
 2. [`filtering_taxi_trip_data.ipynb`](Scripts/filtering_taxi_trip_data.ipynb): In this notebook what has been done has been based on the analysis carried out in the previous notebook to carry out the erasure of the useless axes, the change of name of the columns, the change of format of the date fields, the filtering of the trips with strange values and the elimination of the trips with null values and finally it has been saved in a new CSV (A separate notebook has been used for the whole process of the first notebook to be able to perform the filtering without running the previous notebook).
 	
