@@ -10,14 +10,20 @@ The main objective of this project is to try to predict the price that a taxi wi
 
 Note: This document briefly describes what has been carried out during this project and there is more detail in each of the notebooks.
 
-### About the methodology 
+## About the methodology 
 The CRISP-DM (*cross-industry process for data mining*) methodology provides a structured approach to planning a data mining task and was applied to this data science project.
 
 ![CRISP-DM](Information/process.jpg)
 
+The steps we are going to take to build a model that allows us to obtain the best possible price to reality will be as follows:
+1. Data acquisition: In this first step what we will do is look for all the possible information which will allow us to carry out our analysis in the most complete way possible.
+2. Data Cleaning and Preparation: In this second step, by means of a detailed analysis of the data which allows us to eliminate those trips in taxi with erroneous values or outliers, the creation of new feautures that improve our model and the visualization of the data, we will try to prepare our dataset to carry out the modeling as clean as possible.
+3. Analysis and Modelling: In this third step, we will carry out the exploration of different modeling methods, which will allow us to observe which one best adapts to our data and its hyperparameters.
+4. Visualization: In this last section, what will be done is to visualize the dataset prepared in step 2 and the conclusions obtained in step 3.
 
-## About the technology ##
-#### Programming languages and interpreters
+
+## About the technology 
+### Programming languages and interpreters
 
  - Spark Python API (**PySpark**) : Used practically throughout the project as a result of the large amount of data that has been worked with.
  - **Python**Used for the study of Pickup points or Dropoff points of taxis that may be in the water and for the construction of the model.
@@ -80,7 +86,7 @@ In this phase, several notebooks have been used, being these the following ones:
 
 	Once this has been done, we have taken a visualization of the data, an analysis of the variables that most influence the price of the taxi to finally create the datasets with which to carry out the modeling and visualization.
 
-## Modelling
+## Analysis and Modelling
 
 # WORK IN PROGRESS
 
