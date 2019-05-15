@@ -88,7 +88,27 @@ In this phase, several notebooks have been used, being these the following ones:
 
 ## Analysis and Modelling
 
-# WORK IN PROGRESS
+In the notebook [`model.ipynb`](Scripts/model.ipynb), starting from the `taxi_model_sample001.csv` (Dataset obtained in the notebook `final_eda.ipynb` and which is a sample of 1% of the total data) what we have done is try to choose the model that best suits our data and its hyperparameters from among:
 
-		
+1. Decision Tree Regressor
+2. Random Forest Regressor
+3. Xgboost Regressor
+4. Bagging Regressor + Decision Tree Regressor
+5. Bagging Regressor + Xgboost Regressor
 
+Once we have observed that the model **Bagging Regressor + Xgboost Regressor** with a **depth of 5** is the best predicted, what we have done is to establish the number of estimators that would allow us to improve our prediction.
+
+After observing that the **Bagging Regressor + Xgboost Regressor with a depth of 5 and 120 estimators was the model that gave us the best results, we went on to calculate the test error.
+
+Finally we have repeated the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`.
+
+## Visualization
+
+In this last section we have carried out a visualization in Tableau of the most interesting and relevant aspects. 
+
+The tableau created can be observed in Tableau Public [here](https://public.tableau.com/profile/alvaro.santiago.fernandez.malagon#!/vizhome/ChicagoTaxiVisualization/TaxiTripsVisualization?publish=yes)or in the tableau uploaded to the repository [`Chicago_Taxi_Visualization.twbx`](Visualization/Chicago_Taxi_Visualization.twbx).
+
+## About the author
+
+**Álvaro Santiago Fernándes Malagón**
+IT & Data Internal Auditor BBVA [LinkedIn](https://www.linkedin.com/in/alvaro-fernandez-malagon-55aa4ab0)
