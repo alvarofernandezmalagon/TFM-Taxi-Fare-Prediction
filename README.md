@@ -110,7 +110,9 @@ Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.i
 
 In this last section we have carried out a visualization in Tableau of the most interesting and relevant aspects. 
 
-The tableau created can be observed in Tableau Public [here](https://public.tableau.com/profile/alvaro.santiago.fernandez.malagon#!/vizhome/ChicagoTaxiVisualization/TaxiTripsVisualization?publish=yes) or in the tableau uploaded to the repository [`Chicago_Taxi_Visualization.twbx`](Visualization/Chicago_Taxi_Visualization.twbx).
+The tableau created, with the `taxi_visualized_sample.csv`, can be observed in Tableau Public [here](https://public.tableau.com/profile/alvaro.santiago.fernandez.malagon#!/vizhome/ChicagoTaxiVisualization/TaxiTripsVisualization?publish=yes) or in the tableau uploaded to the repository [`Chicago_Taxi_Visualization.twbx`](Visualization/Chicago_Taxi_Visualization.twbx).
+
+Note: In this repository you can also find the Tableau created with the complete csv `taxi_visualized.csv` (29 million records). However, due to the size it has not been possible to upload the .tbwx to the repository nor to upload it to the Tableau Public [`Chicago_Taxi_Visualization_Full_Data.twb`](Visualization/Chicago_Taxi_Visualization_Full_Data.twb).
 
 ## About the author
 
