@@ -102,9 +102,12 @@ In the notebook [`sample_model.ipynb`](Scripts/sample_model.ipynb), starting fro
 
 Once we have observed that the model **Bagging Regressor + Xgboost Regressor** with a **depth of 5** is the best predicted, what we have done is to establish the number of estimators that would allow us to improve our prediction.
 
-After observing that the **Bagging Regressor + Xgboost Regressor with a depth of 5 and 120 estimators** was the model that gave us the best results, we went on to calculate the test error that is $2.61.
+After observing that the **Bagging Regressor + Xgboost Regressor with a depth of 5 and 120 estimators** was the model that gave us the best results, we went on to calculate the test error that is $2.60.
 
-Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`.
+This already trained model has been stored in a pickle [`bagging_xgboost_d5_es120.pkl`](Scripts/bagging_xgboost_d5_es120.pkl) for later use.
+
+Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`. 
+It has not been possible to model for the whole dataset, due to the lack of memory in the computer, this problem could be solved with a cluster.
 
 ## Visualization
 
@@ -113,6 +116,12 @@ In this last section we have carried out a visualization in Tableau of the most 
 The tableau created, with the `taxi_visualized_sample.csv`, can be observed in Tableau Public [here](https://public.tableau.com/profile/alvaro.santiago.fernandez.malagon#!/vizhome/ChicagoTaxiVisualization/TaxiTripsVisualization?publish=yes) or in the tableau uploaded to the repository [`Chicago_Taxi_Visualization.twbx`](Visualization/Chicago_Taxi_Visualization.twbx).
 
 Note: In this repository you can also find the Tableau created with the complete csv `taxi_visualized.csv` (29 million records). However, due to the size it has not been possible to upload the .tbwx to the repository nor to upload it to the Tableau Public [`Chicago_Taxi_Visualization_Full_Data.twb`](Visualization/Chicago_Taxi_Visualization_Full_Data.twb).
+
+## Next Steps
+
+Although it has not been possible to model with 100% of the data, a fairly accurate model has been achieved with an RMSE of $2.60. 
+
+The next steps will be to set up a cluster that allows us to model with 100% of the data and the very possible improvement of our results. 
 
 ## About the author
 
