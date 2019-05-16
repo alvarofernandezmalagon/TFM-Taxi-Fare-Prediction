@@ -38,18 +38,20 @@ The first thing we have to do is prepare an eviroment to be able to run all the 
 
 1. Libraries to run the code
 ````sh
-	conda install jupyter
-	conda install pyspark
-	conda install numpy
-	conda install pandas
-	conda install matplotlib
-	conda install seaborn
-	conda install scikit-learn
-	conda install -c conda-forge xgboost
+conda install jupyter
+conda install pyspark
+conda install numpy
+conda install pandas
+conda install matplotlib
+conda install seaborn
+conda install scikit-learn
+conda install -c conda-forge xgboost
 ```
+
 2. Library to download the data from Google Drive:
+
 ````sh
-	pip install googledrivedownloader
+pip install googledrivedownloader
 ````
 
 ## Data acquisition
