@@ -95,7 +95,7 @@ In this phase, several notebooks have been used, being these the following ones:
 	4. We have eliminated the useless columns
  	5. Finally we have analyzed the values null and strange making a count of how many trips would remain after this first analysis.
 	
-2. [`filtering_taxi_trip_data.ipynb`](Scripts/filtering_taxi_trip_data.ipynb): In this notebook what has been done has been based on the analysis carried out in the previous notebook to carry out the erasure of the useless axes, the change of name of the columns, the change of format of the date fields, the filtering of the trips with strange values and the elimination of the trips with null values and finally it has been saved in a new CSV (A separate notebook has been used for the whole process of the first notebook to be able to perform the filtering without running the previous notebook).
+2. [`filtering_taxi_trip_data.ipynb`](Scripts/filtering_taxi_trip_data.ipynb): In this notebook with the help of **PySpark**, what has been done has been based on the analysis carried out in the previous notebook to carry out the erasure of the useless axes, the change of name of the columns, the change of format of the date fields, the filtering of the trips with strange values and the elimination of the trips with null values and finally it has been saved in a new CSV (A separate notebook has been used for the whole process of the first notebook to be able to perform the filtering without running the previous notebook).
 	
 3. [`delete_location_water.ipynb`](Scripts/delete_location_water.ipynb): In this notebook what has been done is to represent in the map of Chicago the Pickup and Dropoff points of the remaining trips of the filtering carried out in the previous notebook. The idea is all those trips that have the point of departure or arrival in the water eliminate them. 
 	
@@ -103,7 +103,7 @@ In this phase, several notebooks have been used, being these the following ones:
 
 #### Notebooks used for the analysis and treatment of the Chicago Weather:
 
-1. [`exploratory_filtering_chicago_weather_data.ipynb`](Scripts/exploratory_filtering_chicago_weather_data.ipynb): In this notebook what we do is read 6 of the 7 downloaded files (City Attributes we don't use it), keep the information about Chicago and do an exploration of the data.
+1. [`exploratory_filtering_chicago_weather_data.ipynb`](Scripts/exploratory_filtering_chicago_weather_data.ipynb): In this notebook with the help of **PySpark**, what we do is read 6 of the 7 downloaded files (City Attributes we don't use it), keep the information about Chicago and do an exploration of the data.
 
 #### Notebooks used for the analysis, treatment and union of the Taxi Trips and Weather datasets resulting from the previous processing:
 
@@ -127,7 +127,7 @@ After observing that the **Bagging Regressor + Xgboost Regressor with a depth of
 
 This already trained model has been stored in a pickle [`bagging_xgboost_d5_es120.pkl`](Scripts/bagging_xgboost_d5_es120.pkl) for later use.
 
-Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`. 
+Finally we have repeated in the notebook [`final_model.ipynb`](Scripts/final_model.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb` and the model **Bagging Regressor + Xgboost Regressor with a depth of 5 and 120 estimators**. 
 It has not been possible to model for the whole dataset, due to the lack of memory in the computer, this problem could be solved with a cluster.
 
 Our score has been Root-mean-square deviation (RMSE).
