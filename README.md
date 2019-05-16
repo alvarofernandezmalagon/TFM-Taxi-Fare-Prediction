@@ -27,11 +27,28 @@ The steps we are going to take to build a model that allows us to obtain the bes
 
 
 ## About the technology 
-### Programming languages and interpreters
+### Programming languages
 
  - Spark Python API (**PySpark**) : Used practically throughout the project as a result of the large amount of data that has been worked with.
- - **Python**Used for the study of Pickup points or Dropoff points of taxis that may be in the water and for the construction of the model.
+ - **Python** Used for the study of Pickup points or Dropoff points of taxis that may be in the water and for the construction of the model.
 
+### Libraries to install
+
+The first thing we have to do is prepare an eviroment to be able to run all the code. Then we are going to run the next commands in a Terminal (maybe bash):
+
+1. Libraries to run the code
+	conda install jupyter
+	conda install pyspark
+	conda install numpy
+	conda install pandas
+	conda install matplotlib
+	conda install seaborn
+	conda install scikit-learn
+	conda install -c conda-forge xgboost
+
+2. Library to download the data from Google Drive:
+	pip install googledrivedownloader
+	
 
 ## Data acquisition
 
@@ -108,6 +125,8 @@ This already trained model has been stored in a pickle [`bagging_xgboost_d5_es12
 
 Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`. 
 It has not been possible to model for the whole dataset, due to the lack of memory in the computer, this problem could be solved with a cluster.
+
+Our principal score has been Root-mean-square deviation (RMSE).
 
 ## Visualization
 
