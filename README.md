@@ -37,7 +37,7 @@ The steps we are going to take to build a model that allows us to obtain the bes
 The first thing we have to do is prepare an eviroment to be able to run all the code. Then we are going to run the next commands in a Terminal (maybe bash):
 
 1. Libraries to run the code
-
+````sh
 	conda install jupyter
 	conda install pyspark
 	conda install numpy
@@ -46,11 +46,11 @@ The first thing we have to do is prepare an eviroment to be able to run all the 
 	conda install seaborn
 	conda install scikit-learn
 	conda install -c conda-forge xgboost
-
+```
 2. Library to download the data from Google Drive:
-
+````sh
 	pip install googledrivedownloader
-	
+````
 
 ## Data acquisition
 
