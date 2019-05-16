@@ -111,4 +111,5 @@ The tableau created can be observed in Tableau Public [here](https://public.tabl
 ## About the author
 
 **Álvaro Santiago Fernándes Malagón**
+
 IT & Data Internal Auditor BBVA [LinkedIn](https://www.linkedin.com/in/alvaro-fernandez-malagon-55aa4ab0)
