@@ -128,7 +128,7 @@ This already trained model has been stored in a pickle [`bagging_xgboost_d5_es12
 Finally we have repeated in the notebook [`final_eda.ipynb`](Scripts/final_eda.ipynb) the previous step with the complete CSV `taxi_model.csv` also obtained in the notebook `final_eda.ipynb`. 
 It has not been possible to model for the whole dataset, due to the lack of memory in the computer, this problem could be solved with a cluster.
 
-Our principal score has been Root-mean-square deviation (RMSE).
+Our score has been Root-mean-square deviation (RMSE).
 
 ## Visualization
 
