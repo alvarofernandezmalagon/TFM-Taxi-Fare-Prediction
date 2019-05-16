@@ -37,6 +37,7 @@ The steps we are going to take to build a model that allows us to obtain the bes
 The first thing we have to do is prepare an eviroment to be able to run all the code. Then we are going to run the next commands in a Terminal (maybe bash):
 
 1. Libraries to run the code
+
 	conda install jupyter
 	conda install pyspark
 	conda install numpy
@@ -47,6 +48,7 @@ The first thing we have to do is prepare an eviroment to be able to run all the 
 	conda install -c conda-forge xgboost
 
 2. Library to download the data from Google Drive:
+
 	pip install googledrivedownloader
 	
 
