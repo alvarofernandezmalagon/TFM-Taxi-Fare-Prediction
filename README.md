@@ -8,6 +8,10 @@ A Data Science project in Taxi Domain
 
 The main objective of this project is to try to predict the price that a taxi will cost us in Chicago based on the data of other trips made in this city and adding information about the weather. 
 
+Chicago, located in the state of Illinois, is the third most populated city in the USA behind New York and Los Angeles. With a population of around 2.7 million inhabitants and an area of 606.1 km2, it is made up of 77 community areas with the following distribution:
+
+![Chicago Community Areas](Information/Community_Areas_City_of_Chicago.svg.png)
+
 Note: This document briefly describes what has been carried out during this project and there is more detail in each of the notebooks.
 
 ## About the methodology 
