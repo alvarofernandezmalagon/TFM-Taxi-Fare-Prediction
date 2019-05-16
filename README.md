@@ -80,7 +80,7 @@ All this information can be downloaded by running the notebook: [`download_files
 ## Data cleaning and Preparation (EDA)
 
 ### Description
-The main tasks during this phase were transforming data, dealing with missing values,filter outliers and strange values and visualizing raw data by plotting frequency.
+The main tasks during this phase were transforming data, dealing with missing values, filter outliers and strange values and visualizing raw data by plotting frequency.
 
 ### Notebooks used
 In this phase, several notebooks have been used, being these the following ones:
