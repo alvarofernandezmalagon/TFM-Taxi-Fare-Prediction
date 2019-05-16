@@ -148,6 +148,6 @@ The next steps will be to set up a cluster that allows us to model with 100% of 
 
 ## About the author
 
-**Álvaro Santiago Fernándes Malagón**
+**Álvaro Santiago Fernández Malagón**
 
 IT & Data Internal Auditor BBVA [LinkedIn](https://www.linkedin.com/in/alvaro-fernandez-malagon-55aa4ab0)
