@@ -144,7 +144,7 @@ Note: In this repository you can also find the Tableau created with the complete
 
 Although it has not been possible to model with 100% of the data, a fairly accurate model has been achieved with an RMSE of $2.60. 
 
-The next steps will be to set up a cluster that allows us to model with 100% of the data and the very possible improvement of our results. 
+The next steps will be to set up a cluster that allows us to model with 100% of the data and which will assume the very likely improvement of our results. 
 
 ## About the author
 
