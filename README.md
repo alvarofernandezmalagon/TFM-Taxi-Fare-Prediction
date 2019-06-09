@@ -4,7 +4,7 @@ A Data Science project in Taxi Domain
 `#DataScience` `#PySpark` `#Python` `#MachineLearning` `#BigData` `#Spark` `#Taxi` `#Fare`
 
 
-## Objetive
+## Objective
 
 The main objective of this project is to try to predict the price that a taxi will cost us in Chicago based on the data of other trips made in this city and adding information about the weather. 
 
